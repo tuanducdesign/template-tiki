@@ -1,0 +1,35 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .search-box{
+        margin-left: 0%;
+    }
+    .box{
+        font-size: 10px;
+    }
+    .input-box{
+        width: 70%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .search-box{
+        margin-left: 0%;
+    }
+    .box{
+        font-size: 10px;
+    }
+    .input-box{
+        width: 70%;
+    }
+    .cart-icon,
+    .user-icon{
+        font-size: 16px;
+    }
+    .user-icon{
+        margin-top: 13px;
+    }
+    .logo-freeship{
+        padding-left: 5px;
+    }
+}
