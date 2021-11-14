@@ -128,7 +128,9 @@ $('.produit-prev').onclick = function () {
     $('.produit-prev').style.display = 'none';
     $('.produit-next').style.display = 'block';
 }
-
+$('.produit-slide').addEventListener('swipe:left', function(e) {
+    $('.produit-trans').style.transform = 'translateX(-30%)';
+})
 // trademark slider
 const trademarkDots = $$('.trademark-slider .dots');
 const markNext = $('.trademark-hot .next');

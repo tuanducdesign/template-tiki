@@ -71,10 +71,30 @@
     .produit-img{
         width: 100%;
     }
+    .tiki-fast{
+        width: 80%;
+        height: auto;
+    }
+    
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px){
-    
+    .deals-price{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .deals-discount{
+        font-size: 10px;
+    }
+    .deal-qty span{
+        font-size: 10px;
+    }
+    .fire-icon{
+        width: 20px;
+    }
+    .icon-next{
+        display: none;
+    }
 }
 
 /* Mobile */
@@ -101,6 +121,22 @@
     .timer,
     .timer span {
         font-size: 12px;
+    }
+    .deals-price{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .deals-discount{
+        font-size: 9px;
+    }
+    .deal-qty span{
+        font-size: 9px;
+    }
+    .fire-icon{
+        width: 20px;
+    }
+    .icon-next{
+        display: none;
     }
     
 }
