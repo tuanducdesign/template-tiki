@@ -19,6 +19,10 @@ html{
     height: 100px;
     background-color: rgb(26, 148, 255);
 }
+.header__container{
+    position: relative;
+    padding-top: 4px;
+}
 .dots{
     cursor: pointer;
     font-size: 0;
@@ -30,7 +34,11 @@ html{
     margin: 1px 2px;
     padding: 0;
 }
-
+.logo__container{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
 .logo-tiki {
     margin-top: 15px;
 }
@@ -40,13 +48,32 @@ html{
     height: 40px;
 }
 
-.search-box,
+.search__container,
 .login,.login-tablet,
 .search-box-tablet{
     margin-top: 15px;
     display: flex;
 }
-
+.mobile__cart{
+    display: none;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    letter-spacing: 10px;
+}
+.search-img{
+    display: none;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    color: #c1c1c1;
+}
 .search-box{
     margin-left: 15%;
     width: 100%;
@@ -76,6 +103,12 @@ html{
     height: 40px;
     color: #fff;
     background: rgb(13, 92, 182);
+}
+.search-btn .btn:hover{
+    box-shadow: 1px 1px 5px rgb(29, 30, 31, 0.5);
+}
+.search-btn .btn:active{
+    box-shadow: 1px 1px 15px rgb(29, 30, 31, 0.5) inset;
 }
 .search-icon{
     padding: 0 5px;
@@ -152,9 +185,10 @@ html{
 .freeship-img{
     width: 83px;
     height: 12px;
+    margin-top: 8px;
 }
 .food-bar{
-    margin-left: 25%;
+    margin-top: 8px;
 }
 
 .food-bar a{
@@ -166,13 +200,14 @@ html{
     font-size: 11px;
 }
 .seller{
-    display: flex;
-    justify-content: center;
     border-radius: 8px;
     font-size: 12px;
-    padding: 3px 0;
+    padding: 4px 10px;
     margin-left: 25%;
     background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .sell{
     text-decoration: none;
@@ -325,7 +360,6 @@ html{
     border-bottom: 1px solid rgb(244, 244, 244);
 }
 .flash-icon{
-    height: 28px;
     width: 21px;
     animation: 0.8s flash infinite;
 }

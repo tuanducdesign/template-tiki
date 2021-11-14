@@ -1,35 +1,106 @@
-/* Tablet */
-@media (min-width: 740px) and (max-width: 1023px){
-    .search-box{
-        margin-left: 0%;
+/* Tablet & Mobile */
+@media (max-width: 1023px){
+    .header{
+        height: 150px;
+    }
+    .logo__container{
+        display: flex;
+        flex-direction: initial;
+    }
+    .freeship-img{
+        position: absolute;
+        margin: 0;
+        height: 20px;
+        width: 120px;
+        top: 40px;
+    }
+    .logo-tiki{
+        position: absolute;
+        margin: 0;
+        left: 45%;
+        top: 28px;
+    }
+    .mobile__cart{
+        display: block;
+    }
+    .food-bar{
+        display: none;
+    }
+    .search-btn{
+        display: none;
     }
     .box{
-        font-size: 10px;
+        border-radius: 15px;
+        padding-left: 40px;
+    }
+    .search__container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
     }
     .input-box{
-        width: 70%;
+        width: 100%;
     }
+    .search-img{
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    .slider-show,
+    .slider-img{
+        width: 100%;
+        height: auto;
+    }
+    .icon-prev,
+    .icon-next{
+        width: 26px;
+        height: 52px;
+    }
+    .banner-show{
+        height: auto;
+        margin: 8px 0;
+    }
+    .produit-trans{
+        width: 400%;
+    }
+    .produit-slide{
+        width: 25%;
+    }
+    .produit-img{
+        width: 100%;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    
 }
 
 /* Mobile */
 @media (max-width: 739px){
-    .search-box{
-        margin-left: 0%;
+    .header{
+        padding: 0 16px;
     }
-    .box{
-        font-size: 10px;
+    .stick-dots{
+        display: none;
     }
-    .input-box{
-        width: 70%;
+    .header-deal{
+        padding: 8px;
+        height: auto;
     }
-    .cart-icon,
-    .user-icon{
-        font-size: 16px;
+    .price-shock{
+        width: 60px;
     }
-    .user-icon{
-        margin-top: 13px;
+    .today{
+        width: 75px;
     }
-    .logo-freeship{
-        padding-left: 5px;
+    .flash-icon{
+        width: 16px;
     }
+    .timer,
+    .timer span {
+        font-size: 12px;
+    }
+    
 }

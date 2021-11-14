@@ -14,29 +14,57 @@
     <div class="main">
         <div class="header">
             <div class="grid wide container">
-                <div class="row">
-                    <div class="col l-1 m-0 c-0">
+                <div class="row header__container">
+                    <div class="col l-1 m-12 c-12 logo__container">
+                        <a href="#">
+                            <img class="freeship-img" src="./assets/img/logo-freeship.png" alt="">
+                        </a>
                         <div class="logo-tiki">
                             <img class="logo-img" src="./assets/img/logo-tiki.png" alt="">
                         </div>
+                        <div class="mobile__cart">
+                            <i class="far fa-bell"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
                     </div>
-
-                    <div class="col l-8 m-0 c-0">
+                    <div class="col l-8 m-12 c-12">
                         <div class="search-box">
-                            <div class="input-box">
-                                <input class="box" type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn...">
+                            <div class="search__container">
+                                <div class="input-box">
+                                    <div class="search-img">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <input class="box" type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn...">
+                                </div>
+                                <div class="search-btn">
+                                    <button class="btn" type="submit">
+                                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                        Tìm Kiếm
+                                    </button>
+                                </div>
                             </div>
-                            <div class="search-btn">
-                                <button class="btn" type="submit">
-                                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                                    Tìm Kiếm
-                                </button>
+                            <div class="food-bar">
+                                <a class="food" href="#">
+                                    Tất cả thịt rau củ
+                                </a>
+                                <a class="food" href="#">
+                                    Thịt
+                                </a>
+                                <a class="food" href="#">
+                                    Hàng đông lạnh
+                                </a>
+                                <a class="food" href="#">
+                                    Trái cây
+                                </a>
+                                <a class="food" href="#">
+                                    Hải sản
+                                </a>
+                                <a class="food" href="#">
+                                    Gạo
+                                </a>
                             </div>
                         </div>
                     </div>
-
-                    
-
                     <div class="col l-2 m-0 c-0">
                         <div class="login">
                             <div class="user-icon">
@@ -47,10 +75,8 @@
                                 <span class="user">Tài khoản  <i class="fa-solid fa-caret-down"></i></span> 
                             </span>
                         </div>
+                        
                     </div>
-
-                    
-
                     <div class="col l-1 m-0 c-0">
                         <div class="carts">
                             <i class="fa-solid fa-cart-shopping cart-icon"></i>
@@ -58,49 +84,11 @@
                             <span class="carts__item">0</span>
                         </div>
                     </div>
-
-                    
-                </div>
-
-                <div class="row suggestions">
-                    <div class="col l-1">
-                        <div class="logo-freeship">
-                            <a href="#">
-                                <img class="freeship-img" src="./assets/img/logo-freeship.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col l-5">
-                        <div class="food-bar">
-                            <a class="food" href="#">
-                                Tất cả thịt rau củ
-                            </a>
-                            <a class="food" href="#">
-                                Thịt
-                            </a>
-                            <a class="food" href="#">
-                                Hàng đông lạnh
-                            </a>
-                            <a class="food" href="#">
-                                Trái cây
-                            </a>
-                            <a class="food" href="#">
-                                Hải sản
-                            </a>
-                            <a class="food" href="#">
-                                Gạo
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col l-2 l-o-4">
-                        <div class="seller">
-                            <a href="#" class="sell">
-                                <i class="fa-solid fa-store store-icon"></i>
-                                Bán hàng cùng Tiki
-                            </a>
-                        </div>
+                    <div class="col l-2 m-0 c-0 seller">
+                        <a href="#" class="sell">
+                            <i class="fa-solid fa-store store-icon"></i>
+                            Bán hàng cùng Tiki
+                        </a>
                     </div>
                 </div>
             </div>
@@ -109,7 +97,7 @@
         <div class="navigation">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-0 c-0">
                         <div class="content">
                             <span class="icon-arrow-left">
                                 <i class="fa-solid fa-angle-left arrow-left"></i>
@@ -210,7 +198,7 @@
             <div class="banner-show">
                 <div class="grid wide">
                     <div class="row">
-                        <div class="col l-8">
+                        <div class="col l-8 m-12 c-12">
                             <div class="slider-show">
                                 <p class="slick-arrow slick-prev">
                                     <img src="./assets/img/arrow-icon.png" class="icon-prev" alt="">
@@ -257,7 +245,7 @@
                             </div>
                         </div>
     
-                        <div class="col l-4">
+                        <div class="col l-4 m-0 c-0">
                             <div class="hot-sale">
                                 <a href="#">
                                     <img src="./assets/img/saletat.png" alt="" class="sale-img">
@@ -274,9 +262,9 @@
                 <div class="deal">
                     <div class="header-deal">
                         <div class="deal__flash">
-                            <img src="./assets/img/giasoc.svg" alt="">
+                            <img src="./assets/img/giasoc.svg" class="price-shock" alt="">
                             <img src="./assets/img/dealFlashIcon.svg" alt="" class="flash-icon">
-                            <img src="./assets/img/homnay.svg" alt="">
+                            <img src="./assets/img/homnay.svg" class="today" alt="">
                         </div>
 
                         <a href="#">
