@@ -341,7 +341,7 @@ html{
 
 
 .flash-deal,.deal{
-    height: 340px;
+    height: 330px;
     border-radius: 6px;
 }
 .deal{
@@ -406,6 +406,7 @@ html{
 }
 .produit-trans{
     display: flex;
+    flex-wrap: nowrap;
     transition: 0.3s;
 }
 
@@ -422,11 +423,10 @@ html{
     position: relative;
 }
 .produit-img{
-    width: 176px;
+    width: 100%;
 }
 .tiki-fast{
-    width: 136px;
-    height: 24px;
+    width: 70%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -532,7 +532,6 @@ html{
     opacity: 0.95;
 }
 .links-container{
-    height: 140px;
     background-color: #fff;
     border-radius: 6px;
     display: flex;
@@ -550,7 +549,6 @@ html{
 }
 .links-container .item img{
     width: 48px;
-    height: 48px;
 }
 .links-container .item span{
     margin-top: 18px;
@@ -561,19 +559,18 @@ html{
 }
 
 .coupon-voucher{
-    height: 150px;
     margin-top: 16px;
 }
 
 .coupon-voucher img{
     border-radius: 20px;
+    width: 100%;
 }
 .coupon-voucher img:hover{
     opacity: 0.95;
 }
 
 .genuine-brand{
-    height: 60px;
     width: 100%;
     padding: 16px;
     align-items: center;
@@ -608,19 +605,18 @@ html{
     position: relative;
     display: flex;
     justify-content: center;
-    height: 223px;
     width: 100%;
 }
 .trademark-hot{
     display: flex;
     overflow: hidden;
-    height: 223px;
-    padding: 0 8px 18px 8px;
-    width: 100%;
+    padding-bottom: 18px;
     position: relative;
     align-items: center;
 }
+trademark__img{
 
+}
 .trademark-hot .next,
 .trademark-hot .prev{
     z-index: 2;
@@ -634,10 +630,10 @@ html{
     opacity: 1;
 }
 .trademark-hot .next{
-    right: 15px;
+    right: 12px;
 }
 .trademark-hot .prev{
-    left: 15px;
+    left: 12px;
 }
 .hot-img{
     display: flex;
@@ -646,10 +642,10 @@ html{
 .hot-img .img-container{
     display: flex;
     justify-content: center;
-    width: 593px;
+    width: 100%;
 }
 .hot-img .img{
-    width: 578px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -670,12 +666,11 @@ html{
 }
 
 #trademark .discount{
-    height: 290px;
     width: 100%;
     overflow: hidden;
     padding: 0 7px;
     position: relative;
-    margin-top: 16px;
+    margin: 16px 0;
 }
 .discount::before,
 .discount::after{
@@ -755,12 +750,10 @@ html{
     margin-top: 16px;
 }
 .featured__container{
-    height: 334px;
     background-color: #fff;
     border-radius: 6px;
 }
 .featured__header{
-    height: 48px;
     font-size: 20px;
     line-height: 28px;
     padding: 10px 16px;
@@ -812,8 +805,6 @@ html{
 .trends__header-item{
     display: flex;
     align-items: center;
-}
-.trends__header-item span{
     font-size: 20px;
 }
 .trends__logo{
@@ -954,13 +945,12 @@ html{
 .suggestion__header{
     position: sticky;
     top: 0;
-    z-index: 998;
+    z-index: 6;
     background-color: rgb(240, 233, 233);
 }
 .suggestion__header-title{
     margin-bottom: 4px;
     background-color: #fff;
-    height: 48px;
     padding: 10px 16px;
     font-size: 20px;
     line-height: 28px;

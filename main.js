@@ -123,24 +123,23 @@ $('.produit-next').onclick = function () {
     $('.produit-prev').style.display = 'block';
 }
 
+
 $('.produit-prev').onclick = function () {
     $('.produit-trans').style.transform = 'translateX(0)';
     $('.produit-prev').style.display = 'none';
     $('.produit-next').style.display = 'block';
 }
-$('.produit-slide').addEventListener('swipe:left', function(e) {
-    $('.produit-trans').style.transform = 'translateX(-30%)';
-})
+
 // trademark slider
 const trademarkDots = $$('.trademark-slider .dots');
 const markNext = $('.trademark-hot .next');
 const markPrev = $('.trademark-hot .prev');
 const markSlider = [
     'translateX(0%)',
-    'translateX(-20%)',
-    'translateX(-40%)',
-    'translateX(-60%)',
-    'translateX(-80%)'
+    'translateX(-100%)',
+    'translateX(-200%)',
+    'translateX(-300%)',
+    'translateX(-400%)'
 ]
 // dots click
 trademarkDots.forEach((dot, index) => {
