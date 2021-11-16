@@ -1146,14 +1146,13 @@ trademark__img{
     display: flex;
 }
 .download__qr{
-    width: 42%;
+    height: 25%;
 }
 .download__link{
     margin-left: 8px;
 }
 .app{
-    width: 122px;
-    height: 36px;
+    height: 11%;
     margin-bottom: 6px;
 }
 .footer__address{
