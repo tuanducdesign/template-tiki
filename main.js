@@ -140,7 +140,7 @@ const markSlider = [
     'translateX(-200%)',
     'translateX(-300%)',
     'translateX(-400%)'
-]
+];
 // dots click
 trademarkDots.forEach((dot, index) => {
     dot.onclick = function () {

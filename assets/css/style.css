@@ -207,7 +207,7 @@ html{
     background-color: rgba(255, 255, 255, 0.25);
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 10px;
 }
 .sell{
     text-decoration: none;
@@ -263,16 +263,10 @@ html{
 }
 
 .banner-show{
-    height: 274px;
     margin: 15px 0;
-}
-.slider-show,
-.hot-sale{
-    height: 274px;
 }
 .sale-img,
 .slider-img{
-    height: 274px;
     width: 100%;
     border-radius: 4px;
 }
@@ -929,8 +923,7 @@ trademark__img{
     margin-top: 16px;
 }
 .ads__img {
-    width: 386px;
-    height: 150px;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -966,7 +959,7 @@ trademark__img{
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    min-height: 78px;
+    min-height: 60px;
     width: 146px;
     cursor: pointer;
     padding: 4px 8px;
@@ -1014,8 +1007,7 @@ trademark__img{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 136px;
-    height: 24px;
+    width: 80%;
 }
 .suggestion__items-title{
     font-size: 13px;
@@ -1144,6 +1136,7 @@ trademark__img{
     margin-top: 22px;
 }
 .pay{
+    width: 100%;
     cursor: pointer;
 }
 .tiki-now{
@@ -1153,8 +1146,7 @@ trademark__img{
     display: flex;
 }
 .download__qr{
-    height: 80px;
-    width: 80px;
+    width: 42%;
 }
 .download__link{
     margin-left: 8px;
