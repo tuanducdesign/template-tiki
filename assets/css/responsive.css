@@ -164,6 +164,9 @@
     .trends__body::after {
         display: none;
     }
+    .discount::after{
+        display: none;
+    }
     .ads__img{
         width: 100%;
         height: auto;
@@ -211,10 +214,16 @@
     .suggestion__items{
         width: calc(100%/3);
     }
+    .footer__container{
+        height: 580px;
+    }
 }
 
 /* Mobile */
 @media (max-width: 739px){
+    .main {
+        overflow: hidden;
+    }
     .header{
         padding: 0 16px;
     }
@@ -371,5 +380,31 @@
     }
     .pay{
         width: 95%;
+    }
+    .footer__container{
+        padding: 16px 4px;
+        height: 460px;
+    }
+    .footer__title{
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 18px
+    }
+    .footer__links, .footer__links-title, .hot-line{
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 6px;
+    }
+    .app{
+        height: 9%;
+    }
+    .download__qr{
+        height: 21%;
+    }
+    .footer__address{
+        padding: 0 4px;
+    }
+    .none{
+        display: none;
     }
 }
