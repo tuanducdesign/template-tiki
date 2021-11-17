@@ -345,9 +345,7 @@
     .trends__container{
         height: 240px;
     }
-    .suggestion__header{
-        top: -40px;
-    }
+    
     .suggestion__header-title{
         font-size: 16px;
         padding: 6px 10px;
